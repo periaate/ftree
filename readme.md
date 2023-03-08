@@ -1,5 +1,5 @@
 # Ftree
-`ftree` is a library used to build and traverse directories. It provides a simple interface for building a tree of directories and files, and for walking the tree and performing actions on each file.
+`ftree` is a Go library that provides tools for building and traversing file trees. A `Walker` can be used to walk a FileTree with `Steppers`, which are conditionally given the files they want to process. This allows for multiple functions to read the same file.
 
 ## Usage
 ### FileTree
